@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform</title>
+</head>
+<body>
+    <h2 id="platform"></h2>
+    <script>
+        let output = navigator.platform;
+        let h_tag_ref = document.getElementById('platform');
+        h_tag_ref.innerHTML = `Operating System: ${output}`;
+    </script>
+</body>
+</html>
